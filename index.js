@@ -28,7 +28,6 @@ sliderImgs.forEach((img) => {
     } else if (touchStartX - touchEndX < -80) {
       showPrev();
     }
-    console.log(touchStartX - touchEndX);
   });
 });
 
